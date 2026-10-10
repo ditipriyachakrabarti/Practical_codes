@@ -1,6 +1,8 @@
 #include <iostream>
 #include <fstream>
 #include <string>
+#include <iomanip>
+using namespace std;
 class Advisory {
 public:
     virtual void giveAdvice() = 0;
